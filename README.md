@@ -3,5 +3,6 @@ Install Fiddler certificates on android (Rooted only)
 
 # Usage
 Follow Fiddler instructions:
-https://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/ConfigureForAndroid \n
+https://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/ConfigureForAndroid
+
 and then run this script.
