@@ -5,6 +5,15 @@ os.system("adb kill-server")
 #only for adb over wifi
 #os.system("adb connect 192.168.10.189:5555")
 
+#if not connected
+devices= os.popen("adb devices").read().split('\n')
+if (len(devices)==3):
+    print("Could not find device")
+    exit()
+elif (len(devices)>4):
+    print("More than one devices are connected")
+    exit()
+
 #temp file with su shell commands reading user certs
 commands= open("temp", "w+")
 commands.write("su\nls /data/misc/user/0/cacerts-added/\n")
