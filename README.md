@@ -1,13 +1,14 @@
-# FiddlerAndroid
-Install Fiddler certificates on android (Rooted only)
+# System Certificates - Android
+Install system certificates on android (Rooted only)
 
-# Installation
-First you must configure adb on you computer.
+## Usage
+1. First you must configure adb on you computer.
+2. Install the certificate as a user certificate
+3. Downlaod this script.
+4. Connect your android (while ADB Debugging enabled)
+5. Run this script
+```bash
+python3 installcertificate.py
+```
 
-Downlaod this script.
 
-# Usage
-Follow Fiddler instructions:
-https://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/ConfigureForAndroid
-
-and then run this script.
