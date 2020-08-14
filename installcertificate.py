@@ -11,7 +11,7 @@ if (len(devices)==3):
     print("Could not find device")
     exit()
 elif (len(devices)>4):
-    print("More than one devices are connected")
+    print("More than one device is connected")
     exit()
 
 #temp file with su shell commands reading user certs
